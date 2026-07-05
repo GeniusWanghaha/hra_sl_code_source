@@ -1,0 +1,21 @@
+\begin{tabularx}{\textwidth}{l>{\raggedright\arraybackslash}Xccc}
+\toprule
+Dataset & Method & Macro-F1 & Fault-source F1 & FAR \\
+\midrule
+Synthetic & HRA-Core signature & 0.718 $\pm$ 0.033 & 0.875 $\pm$ 0.030 & 0.506 \\
+Synthetic & Residual summaries & 0.588 $\pm$ 0.028 & 0.754 $\pm$ 0.028 & 0.558 \\
+Synthetic & Attribution scores & 0.277 $\pm$ 0.009 & 0.495 $\pm$ 0.014 & 0.602 \\
+Synthetic & Indices only & 0.556 $\pm$ 0.026 & 0.696 $\pm$ 0.028 & 0.557 \\
+Synthetic & HRA+spectral & 0.780 $\pm$ 0.028 & 0.903 $\pm$ 0.023 & 0.458 \\
+UCI HAR & HRA-Core signature & 0.621 $\pm$ 0.020 & 0.880 $\pm$ 0.018 & 0.711 \\
+UCI HAR & Residual summaries & 0.499 $\pm$ 0.013 & 0.740 $\pm$ 0.017 & 0.706 \\
+UCI HAR & Attribution scores & 0.486 $\pm$ 0.008 & 0.679 $\pm$ 0.008 & 0.714 \\
+UCI HAR & Indices only & 0.607 $\pm$ 0.017 & 0.849 $\pm$ 0.018 & 0.684 \\
+UCI HAR & HRA+spectral & 0.655 $\pm$ 0.017 & 0.907 $\pm$ 0.013 & 0.770 \\
+Air Quality & HRA-Core signature & 0.562 $\pm$ 0.026 & 0.707 $\pm$ 0.025 & 0.476 \\
+Air Quality & Residual summaries & 0.561 $\pm$ 0.018 & 0.705 $\pm$ 0.016 & 0.480 \\
+Air Quality & Attribution scores & 0.297 $\pm$ 0.011 & 0.484 $\pm$ 0.016 & 0.686 \\
+Air Quality & Indices only & 0.398 $\pm$ 0.018 & 0.583 $\pm$ 0.010 & 0.899 \\
+Air Quality & HRA+spectral & 0.554 $\pm$ 0.029 & 0.699 $\pm$ 0.025 & 0.611 \\
+\bottomrule
+\end{tabularx}

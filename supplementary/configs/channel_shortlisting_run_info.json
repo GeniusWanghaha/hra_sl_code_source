@@ -1,0 +1,43 @@
+{
+  "datasets": [
+    "synthetic",
+    "uci_har",
+    "air_quality"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "severities": [
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75
+  ],
+  "n_train_per_class": 50,
+  "n_test_per_class": 50,
+  "length": 128,
+  "channels": 8,
+  "max_base_windows": 1400,
+  "data_dir": "data",
+  "out_dir": "runs\\channel_shortlisting_current",
+  "main_classifier": "hgb",
+  "reported_supervised_localizers": [
+    "HRA-SL (HGB)",
+    "AE-only HGB"
+  ],
+  "reported_unsupervised_rankings": [
+    "HRA attribution ranking",
+    "Tuned TCN-AE",
+    "Tuned USAD-like AE"
+  ],
+  "ae_budgets": [
+    100
+  ],
+  "ae_patience": 12,
+  "batch_size": 64
+}

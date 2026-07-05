@@ -1,0 +1,1137 @@
+{
+  "synthetic/seed=1/severity=0.75": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=1/severity=1.0": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=1/severity=1.25": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=1/severity=1.5": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=1/severity=1.75": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=2/severity=0.75": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=2/severity=1.0": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=2/severity=1.25": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=2/severity=1.5": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=2/severity=1.75": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=3/severity=0.75": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=3/severity=1.0": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=3/severity=1.25": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=3/severity=1.5": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=3/severity=1.75": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=4/severity=0.75": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=4/severity=1.0": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=4/severity=1.25": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=4/severity=1.5": {
+    "split": "independent synthetic generation"
+  },
+  "synthetic/seed=4/severity=1.75": {
+    "split": "independent synthetic generation"
+  },
+  "uci_har/seed=0/severity=0.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 475,
+    "train_base_windows": 446,
+    "test_base_windows": 479,
+    "calibration_subjects": [
+      5,
+      7,
+      11,
+      17,
+      21,
+      26,
+      28
+    ],
+    "train_subjects": [
+      1,
+      6,
+      15,
+      19,
+      22,
+      27,
+      29
+    ],
+    "test_subjects": [
+      3,
+      8,
+      14,
+      16,
+      23,
+      25,
+      30
+    ]
+  },
+  "uci_har/seed=0/severity=1.0": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 475,
+    "train_base_windows": 446,
+    "test_base_windows": 479,
+    "calibration_subjects": [
+      5,
+      7,
+      11,
+      17,
+      21,
+      26,
+      28
+    ],
+    "train_subjects": [
+      1,
+      6,
+      15,
+      19,
+      22,
+      27,
+      29
+    ],
+    "test_subjects": [
+      3,
+      8,
+      14,
+      16,
+      23,
+      25,
+      30
+    ]
+  },
+  "uci_har/seed=0/severity=1.25": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 475,
+    "train_base_windows": 446,
+    "test_base_windows": 479,
+    "calibration_subjects": [
+      5,
+      7,
+      11,
+      17,
+      21,
+      26,
+      28
+    ],
+    "train_subjects": [
+      1,
+      6,
+      15,
+      19,
+      22,
+      27,
+      29
+    ],
+    "test_subjects": [
+      3,
+      8,
+      14,
+      16,
+      23,
+      25,
+      30
+    ]
+  },
+  "uci_har/seed=0/severity=1.5": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 475,
+    "train_base_windows": 446,
+    "test_base_windows": 479,
+    "calibration_subjects": [
+      5,
+      7,
+      11,
+      17,
+      21,
+      26,
+      28
+    ],
+    "train_subjects": [
+      1,
+      6,
+      15,
+      19,
+      22,
+      27,
+      29
+    ],
+    "test_subjects": [
+      3,
+      8,
+      14,
+      16,
+      23,
+      25,
+      30
+    ]
+  },
+  "uci_har/seed=0/severity=1.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 475,
+    "train_base_windows": 446,
+    "test_base_windows": 479,
+    "calibration_subjects": [
+      5,
+      7,
+      11,
+      17,
+      21,
+      26,
+      28
+    ],
+    "train_subjects": [
+      1,
+      6,
+      15,
+      19,
+      22,
+      27,
+      29
+    ],
+    "test_subjects": [
+      3,
+      8,
+      14,
+      16,
+      23,
+      25,
+      30
+    ]
+  },
+  "uci_har/seed=1/severity=0.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 514,
+    "train_base_windows": 438,
+    "test_base_windows": 448,
+    "calibration_subjects": [
+      3,
+      14,
+      19,
+      21,
+      25,
+      28,
+      30
+    ],
+    "train_subjects": [
+      5,
+      6,
+      7,
+      8,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      1,
+      11,
+      15,
+      16,
+      22,
+      23,
+      29
+    ]
+  },
+  "uci_har/seed=1/severity=1.0": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 514,
+    "train_base_windows": 438,
+    "test_base_windows": 448,
+    "calibration_subjects": [
+      3,
+      14,
+      19,
+      21,
+      25,
+      28,
+      30
+    ],
+    "train_subjects": [
+      5,
+      6,
+      7,
+      8,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      1,
+      11,
+      15,
+      16,
+      22,
+      23,
+      29
+    ]
+  },
+  "uci_har/seed=1/severity=1.25": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 514,
+    "train_base_windows": 438,
+    "test_base_windows": 448,
+    "calibration_subjects": [
+      3,
+      14,
+      19,
+      21,
+      25,
+      28,
+      30
+    ],
+    "train_subjects": [
+      5,
+      6,
+      7,
+      8,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      1,
+      11,
+      15,
+      16,
+      22,
+      23,
+      29
+    ]
+  },
+  "uci_har/seed=1/severity=1.5": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 514,
+    "train_base_windows": 438,
+    "test_base_windows": 448,
+    "calibration_subjects": [
+      3,
+      14,
+      19,
+      21,
+      25,
+      28,
+      30
+    ],
+    "train_subjects": [
+      5,
+      6,
+      7,
+      8,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      1,
+      11,
+      15,
+      16,
+      22,
+      23,
+      29
+    ]
+  },
+  "uci_har/seed=1/severity=1.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 514,
+    "train_base_windows": 438,
+    "test_base_windows": 448,
+    "calibration_subjects": [
+      3,
+      14,
+      19,
+      21,
+      25,
+      28,
+      30
+    ],
+    "train_subjects": [
+      5,
+      6,
+      7,
+      8,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      1,
+      11,
+      15,
+      16,
+      22,
+      23,
+      29
+    ]
+  },
+  "uci_har/seed=2/severity=0.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 472,
+    "train_base_windows": 445,
+    "test_base_windows": 483,
+    "calibration_subjects": [
+      11,
+      14,
+      19,
+      21,
+      23,
+      26,
+      29
+    ],
+    "train_subjects": [
+      1,
+      5,
+      17,
+      22,
+      25,
+      28,
+      30
+    ],
+    "test_subjects": [
+      3,
+      6,
+      7,
+      8,
+      15,
+      16,
+      27
+    ]
+  },
+  "uci_har/seed=2/severity=1.0": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 472,
+    "train_base_windows": 445,
+    "test_base_windows": 483,
+    "calibration_subjects": [
+      11,
+      14,
+      19,
+      21,
+      23,
+      26,
+      29
+    ],
+    "train_subjects": [
+      1,
+      5,
+      17,
+      22,
+      25,
+      28,
+      30
+    ],
+    "test_subjects": [
+      3,
+      6,
+      7,
+      8,
+      15,
+      16,
+      27
+    ]
+  },
+  "uci_har/seed=2/severity=1.25": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 472,
+    "train_base_windows": 445,
+    "test_base_windows": 483,
+    "calibration_subjects": [
+      11,
+      14,
+      19,
+      21,
+      23,
+      26,
+      29
+    ],
+    "train_subjects": [
+      1,
+      5,
+      17,
+      22,
+      25,
+      28,
+      30
+    ],
+    "test_subjects": [
+      3,
+      6,
+      7,
+      8,
+      15,
+      16,
+      27
+    ]
+  },
+  "uci_har/seed=2/severity=1.5": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 472,
+    "train_base_windows": 445,
+    "test_base_windows": 483,
+    "calibration_subjects": [
+      11,
+      14,
+      19,
+      21,
+      23,
+      26,
+      29
+    ],
+    "train_subjects": [
+      1,
+      5,
+      17,
+      22,
+      25,
+      28,
+      30
+    ],
+    "test_subjects": [
+      3,
+      6,
+      7,
+      8,
+      15,
+      16,
+      27
+    ]
+  },
+  "uci_har/seed=2/severity=1.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 472,
+    "train_base_windows": 445,
+    "test_base_windows": 483,
+    "calibration_subjects": [
+      11,
+      14,
+      19,
+      21,
+      23,
+      26,
+      29
+    ],
+    "train_subjects": [
+      1,
+      5,
+      17,
+      22,
+      25,
+      28,
+      30
+    ],
+    "test_subjects": [
+      3,
+      6,
+      7,
+      8,
+      15,
+      16,
+      27
+    ]
+  },
+  "uci_har/seed=3/severity=0.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 497,
+    "train_base_windows": 479,
+    "test_base_windows": 424,
+    "calibration_subjects": [
+      6,
+      15,
+      16,
+      25,
+      26,
+      27,
+      30
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      17,
+      19,
+      21,
+      22
+    ],
+    "test_subjects": [
+      1,
+      7,
+      8,
+      14,
+      23,
+      28,
+      29
+    ]
+  },
+  "uci_har/seed=3/severity=1.0": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 497,
+    "train_base_windows": 479,
+    "test_base_windows": 424,
+    "calibration_subjects": [
+      6,
+      15,
+      16,
+      25,
+      26,
+      27,
+      30
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      17,
+      19,
+      21,
+      22
+    ],
+    "test_subjects": [
+      1,
+      7,
+      8,
+      14,
+      23,
+      28,
+      29
+    ]
+  },
+  "uci_har/seed=3/severity=1.25": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 497,
+    "train_base_windows": 479,
+    "test_base_windows": 424,
+    "calibration_subjects": [
+      6,
+      15,
+      16,
+      25,
+      26,
+      27,
+      30
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      17,
+      19,
+      21,
+      22
+    ],
+    "test_subjects": [
+      1,
+      7,
+      8,
+      14,
+      23,
+      28,
+      29
+    ]
+  },
+  "uci_har/seed=3/severity=1.5": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 497,
+    "train_base_windows": 479,
+    "test_base_windows": 424,
+    "calibration_subjects": [
+      6,
+      15,
+      16,
+      25,
+      26,
+      27,
+      30
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      17,
+      19,
+      21,
+      22
+    ],
+    "test_subjects": [
+      1,
+      7,
+      8,
+      14,
+      23,
+      28,
+      29
+    ]
+  },
+  "uci_har/seed=3/severity=1.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 497,
+    "train_base_windows": 479,
+    "test_base_windows": 424,
+    "calibration_subjects": [
+      6,
+      15,
+      16,
+      25,
+      26,
+      27,
+      30
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      17,
+      19,
+      21,
+      22
+    ],
+    "test_subjects": [
+      1,
+      7,
+      8,
+      14,
+      23,
+      28,
+      29
+    ]
+  },
+  "uci_har/seed=4/severity=0.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 451,
+    "train_base_windows": 468,
+    "test_base_windows": 481,
+    "calibration_subjects": [
+      1,
+      8,
+      14,
+      16,
+      22,
+      25,
+      29
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      15,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      6,
+      7,
+      19,
+      21,
+      23,
+      28,
+      30
+    ]
+  },
+  "uci_har/seed=4/severity=1.0": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 451,
+    "train_base_windows": 468,
+    "test_base_windows": 481,
+    "calibration_subjects": [
+      1,
+      8,
+      14,
+      16,
+      22,
+      25,
+      29
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      15,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      6,
+      7,
+      19,
+      21,
+      23,
+      28,
+      30
+    ]
+  },
+  "uci_har/seed=4/severity=1.25": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 451,
+    "train_base_windows": 468,
+    "test_base_windows": 481,
+    "calibration_subjects": [
+      1,
+      8,
+      14,
+      16,
+      22,
+      25,
+      29
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      15,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      6,
+      7,
+      19,
+      21,
+      23,
+      28,
+      30
+    ]
+  },
+  "uci_har/seed=4/severity=1.5": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 451,
+    "train_base_windows": 468,
+    "test_base_windows": 481,
+    "calibration_subjects": [
+      1,
+      8,
+      14,
+      16,
+      22,
+      25,
+      29
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      15,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      6,
+      7,
+      19,
+      21,
+      23,
+      28,
+      30
+    ]
+  },
+  "uci_har/seed=4/severity=1.75": {
+    "split": "subject-disjoint partition within UCI HAR train split",
+    "base_windows": 1400,
+    "calibration_windows": 451,
+    "train_base_windows": 468,
+    "test_base_windows": 481,
+    "calibration_subjects": [
+      1,
+      8,
+      14,
+      16,
+      22,
+      25,
+      29
+    ],
+    "train_subjects": [
+      3,
+      5,
+      11,
+      15,
+      17,
+      26,
+      27
+    ],
+    "test_subjects": [
+      6,
+      7,
+      19,
+      21,
+      23,
+      28,
+      30
+    ]
+  },
+  "air_quality/seed=0/severity=0.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=0/severity=1.0": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=0/severity=1.25": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=0/severity=1.5": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=0/severity=1.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=1/severity=0.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=1/severity=1.0": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=1/severity=1.25": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=1/severity=1.5": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=1/severity=1.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=2/severity=0.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=2/severity=1.0": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=2/severity=1.25": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=2/severity=1.5": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=2/severity=1.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=3/severity=0.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=3/severity=1.0": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=3/severity=1.25": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=3/severity=1.5": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=3/severity=1.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=4/severity=0.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=4/severity=1.0": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=4/severity=1.25": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=4/severity=1.5": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  },
+  "air_quality/seed=4/severity=1.75": {
+    "split": "chronological split with train-fit preprocessing and non-overlapping windows",
+    "base_windows": 72,
+    "calibration_windows": 25,
+    "train_base_windows": 22,
+    "test_base_windows": 25,
+    "window_length": 128,
+    "step": 128
+  }
+}

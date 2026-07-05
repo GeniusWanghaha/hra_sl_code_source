@@ -1,0 +1,40 @@
+dataset,metric,system_a,method_a,system_b,method_b,mean_diff,ci95_half_width,ci_low_normal,ci_high_normal,wins,ties,losses,n
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,statistical_hier,Statistical,0.21456388136253315,0.011691817625032085,0.20287206373750108,0.22625569898756523,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,spectral_hier,Spectral,0.1080340714769921,0.009120000481292094,0.0989140709957,0.11715407195828419,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,stat_spectral_hier,Stat.+spectral,0.08091542670832064,0.011308467358184528,0.06960695935013611,0.09222389406650516,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,tuned_tcn_ae_hier,Tuned TCN-AE,0.4210624319704773,0.025264117214405378,0.39579831475607197,0.4463265491848827,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,tuned_usad_ae_hier,Tuned USAD-like AE,0.21365008589570345,0.013038454942498274,0.20061163095320517,0.22668854083820172,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,gru_ae_hier,GRU-AE,0.3880963838610444,0.029118204547871247,0.35897817931317316,0.4172145884089156,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,diagnostic_signature_only_hier,HRA-Core signature,0.06210503289016993,0.010870340304819582,0.05123469258535035,0.0729753731949895,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,residual_summaries_only_hier,Residual summaries,0.19232874691330884,0.012788318481438968,0.17954042843186988,0.2051170653947478,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,attribution_scores_only_hier,Attribution scores,0.5030226218343727,0.027236668092257978,0.47578595374211474,0.5302592899266307,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,indices_only_hier,Indices only,0.2244715083558907,0.013840411280138057,0.21063109707575264,0.23831191963602874,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,hra_plus_spectral_flat,HRA+spectral flat,0.0004195922980910094,0.005674373095805908,-0.005254780797714899,0.0060939653938969175,15,0,10,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,statistical_flat,Statistical flat,0.21071604677842934,0.009255766371654076,0.20146028040677527,0.2199718131500834,25,0,0,25
+synthetic,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,spectral_flat,Spectral flat,0.11158130135272445,0.010643536800737343,0.10093776455198711,0.1222248381534618,25,0,0,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,statistical_hier,Statistical,0.09803566215508001,0.022081610017968774,0.07595405213711123,0.1201172721730488,25,0,0,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,spectral_hier,Spectral,0.08419838150976522,0.009487246056673403,0.07471113545309181,0.09368562756643863,25,0,0,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,stat_spectral_hier,Stat.+spectral,0.023726010722235083,0.006760425874048398,0.016965584848186686,0.03048643659628348,24,0,1,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,tuned_tcn_ae_hier,Tuned TCN-AE,0.2917026688387707,0.014943610218121397,0.2767590586206493,0.3066462790568921,25,0,0,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,tuned_usad_ae_hier,Tuned USAD-like AE,0.31895340169569975,0.013625550198169082,0.30532785149753067,0.3325789518938688,25,0,0,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,gru_ae_hier,GRU-AE,0.25006173830523065,0.023843317238153514,0.22621842106707712,0.2739050555433842,25,0,0,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,diagnostic_signature_only_hier,HRA-Core signature,0.033954482440403944,0.010478906988975613,0.02347557545142833,0.044433389429379556,23,0,2,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,residual_summaries_only_hier,Residual summaries,0.15609096702086633,0.008572475881114403,0.14751849113975193,0.16466344290198073,25,0,0,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,attribution_scores_only_hier,Attribution scores,0.16877134798638382,0.020706853778096345,0.1480644942082875,0.18947820176448016,25,0,0,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,indices_only_hier,Indices only,0.04847786083857539,0.012281516956033918,0.03619634388254147,0.060759377794609305,23,0,2,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,hra_plus_spectral_flat,HRA+spectral flat,-0.01759559006269526,0.007937390717032106,-0.025532980779727366,-0.009658199345663154,7,0,18,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,statistical_flat,Statistical flat,0.10457385089005683,0.02099301692142485,0.08358083396863197,0.12556686781148169,25,0,0,25
+uci_har,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,spectral_flat,Spectral flat,0.06361650133135287,0.008713052842278798,0.054903448489074066,0.07232955417363167,25,0,0,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,statistical_hier,Statistical,0.1597575243359372,0.029276681638453955,0.13048084269748325,0.18903420597439116,24,0,1,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,spectral_hier,Spectral,0.15428298711572722,0.01819526754100825,0.13608771957471896,0.17247825465673547,25,0,0,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,stat_spectral_hier,Stat.+spectral,0.09314821126186129,0.02412203348529099,0.0690261777765703,0.11727024474715228,23,0,2,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,tuned_tcn_ae_hier,Tuned TCN-AE,0.04573891751835424,0.020559466122307996,0.025179451396046243,0.06629838364066223,19,0,6,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,tuned_usad_ae_hier,Tuned USAD-like AE,0.2121642050301903,0.03116818690839359,0.1809960181217967,0.2433323919385839,25,0,0,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,gru_ae_hier,GRU-AE,0.24831929789604174,0.0257543432097262,0.22256495468631554,0.27407364110576793,25,0,0,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,diagnostic_signature_only_hier,HRA-Core signature,-0.008578128426718902,0.014484047389629742,-0.023062175816348646,0.005905918962910839,9,0,16,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,residual_summaries_only_hier,Residual summaries,-0.007083489425615211,0.015284253570426856,-0.022367742996042068,0.008200764144811645,10,0,15,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,attribution_scores_only_hier,Attribution scores,0.2563201243581839,0.03072984835185134,0.22559027600633258,0.28704997271003524,25,0,0,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,indices_only_hier,Indices only,0.155780187434085,0.023907444428713245,0.13187274300537177,0.17968763186279824,25,0,0,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,hra_plus_spectral_flat,HRA+spectral flat,0.007388517404276877,0.010378007220620891,-0.0029894898163440138,0.017766524624897768,15,0,10,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,statistical_flat,Statistical flat,0.17340896949944362,0.03259210823593879,0.14081686126350484,0.2060010777353824,24,0,1,25
+air_quality,source_group_macro_f1,hra_plus_spectral_hier,HRA+spectral,spectral_flat,Spectral flat,0.14393068625500588,0.016076546739461565,0.1278541395155443,0.16000723299446745,25,0,0,25

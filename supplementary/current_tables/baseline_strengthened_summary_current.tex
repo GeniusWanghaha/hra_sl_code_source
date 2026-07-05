@@ -1,0 +1,27 @@
+\begin{tabularx}{\textwidth}{l>{\raggedright\arraybackslash}Xccc}
+\toprule
+Dataset & Method & Macro-F1 & Fault-source F1 & FAR \\
+\midrule
+Synthetic & Statistical & 0.566 $\pm$ 0.027 & 0.767 $\pm$ 0.029 & 0.549 \\
+Synthetic & Spectral & 0.672 $\pm$ 0.025 & 0.763 $\pm$ 0.024 & 0.490 \\
+Synthetic & Stat.+spectral & 0.699 $\pm$ 0.025 & 0.800 $\pm$ 0.024 & 0.466 \\
+Synthetic & Tuned TCN-AE & 0.359 $\pm$ 0.010 & 0.496 $\pm$ 0.013 & 0.635 \\
+Synthetic & Tuned USAD-like AE & 0.567 $\pm$ 0.035 & 0.718 $\pm$ 0.035 & 0.354 \\
+Synthetic & GRU-AE & 0.392 $\pm$ 0.015 & 0.551 $\pm$ 0.017 & 0.721 \\
+Synthetic & HRA+spectral & 0.780 $\pm$ 0.028 & 0.903 $\pm$ 0.023 & 0.458 \\
+UCI HAR & Statistical & 0.557 $\pm$ 0.016 & 0.828 $\pm$ 0.019 & 0.756 \\
+UCI HAR & Spectral & 0.571 $\pm$ 0.013 & 0.798 $\pm$ 0.013 & 0.761 \\
+UCI HAR & Stat.+spectral & 0.631 $\pm$ 0.016 & 0.875 $\pm$ 0.014 & 0.766 \\
+UCI HAR & Tuned TCN-AE & 0.363 $\pm$ 0.005 & 0.558 $\pm$ 0.006 & 0.867 \\
+UCI HAR & Tuned USAD-like AE & 0.336 $\pm$ 0.013 & 0.515 $\pm$ 0.015 & 0.770 \\
+UCI HAR & GRU-AE & 0.405 $\pm$ 0.011 & 0.602 $\pm$ 0.018 & 0.802 \\
+UCI HAR & HRA+spectral & 0.655 $\pm$ 0.017 & 0.907 $\pm$ 0.013 & 0.770 \\
+Air Quality & Statistical & 0.394 $\pm$ 0.014 & 0.576 $\pm$ 0.016 & 0.472 \\
+Air Quality & Spectral & 0.400 $\pm$ 0.017 & 0.588 $\pm$ 0.020 & 0.723 \\
+Air Quality & Stat.+spectral & 0.461 $\pm$ 0.016 & 0.647 $\pm$ 0.024 & 0.711 \\
+Air Quality & Tuned TCN-AE & 0.508 $\pm$ 0.028 & 0.629 $\pm$ 0.023 & 0.454 \\
+Air Quality & Tuned USAD-like AE & 0.342 $\pm$ 0.011 & 0.522 $\pm$ 0.012 & 0.801 \\
+Air Quality & GRU-AE & 0.305 $\pm$ 0.009 & 0.477 $\pm$ 0.012 & 0.786 \\
+Air Quality & HRA+spectral & 0.554 $\pm$ 0.029 & 0.699 $\pm$ 0.025 & 0.611 \\
+\bottomrule
+\end{tabularx}

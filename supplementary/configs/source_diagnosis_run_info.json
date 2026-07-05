@@ -1,0 +1,43 @@
+{
+  "datasets": [
+    "synthetic",
+    "uci_har",
+    "air_quality"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "severities": [
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75
+  ],
+  "n_train_per_class": 50,
+  "n_test_per_class": 50,
+  "length": 128,
+  "channels": 8,
+  "max_base_windows": 1400,
+  "data_dir": "data",
+  "out": "runs\\baseline_ablation_full",
+  "batch_size": 64,
+  "ae_budgets": [
+    10,
+    30,
+    50,
+    100
+  ],
+  "ae_patience": 12,
+  "quick_ae_grid": false,
+  "skip_ae": false,
+  "no_gru": false,
+  "resume": true,
+  "command": "python experiments/baseline_ablation_suite.py",
+  "torch_cuda_available": true,
+  "torch_version": "2.7.1+cu118"
+}

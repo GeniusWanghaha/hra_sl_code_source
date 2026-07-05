@@ -1,0 +1,20 @@
+\begin{tabularx}{\textwidth}{ll>{\raggedright\arraybackslash}Xcc}
+\toprule
+Dataset & Ranking method & Supervision & Top-1 loc. & MRR \\
+\midrule
+Synthetic & HRA-SL (HGB) & supervised target-channel labels & 0.916 & 0.950 \\
+ & HRA attribution ranking & unsupervised residual-attribution ranking & 0.556 & 0.650 \\
+ & Tuned TCN-AE & unsupervised reconstruction ranking & 0.462 & 0.622 \\
+ & Tuned USAD-like AE & unsupervised reconstruction ranking & 0.789 & 0.866 \\
+\addlinespace[2pt]
+UCI HAR & HRA-SL (HGB) & supervised target-channel labels & 0.714 & 0.812 \\
+ & HRA attribution ranking & unsupervised residual-attribution ranking & 0.614 & 0.737 \\
+ & Tuned TCN-AE & unsupervised reconstruction ranking & 0.357 & 0.556 \\
+ & Tuned USAD-like AE & unsupervised reconstruction ranking & 0.253 & 0.454 \\
+\addlinespace[2pt]
+Air Quality & HRA-SL (HGB) & supervised target-channel labels & 0.715 & 0.822 \\
+ & HRA attribution ranking & unsupervised residual-attribution ranking & 0.354 & 0.534 \\
+ & Tuned TCN-AE & unsupervised reconstruction ranking & 0.666 & 0.785 \\
+ & Tuned USAD-like AE & unsupervised reconstruction ranking & 0.296 & 0.473 \\
+\bottomrule
+\end{tabularx}
